@@ -4,6 +4,7 @@ EventClean é uma aplicação desenvolvida em Java com Spring Boot, projetada pa
 ![Java](https://img.shields.io/badge/Java-21-orange)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.4.4-brightgreen)
 ![Docker](https://img.shields.io/badge/Docker-✓-blue)
+![flyway](https://img.shields.io/badge/flyway-✓-pink)
 
 🚀 Tecnologias Utilizadas
 Java 17
