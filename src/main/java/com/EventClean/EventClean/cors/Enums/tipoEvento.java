@@ -1,4 +1,4 @@
-package com.EventClean.EventClean.cors.Emuns;
+package com.EventClean.EventClean.cors.Enuns;
 
 public enum tipoEvento {
     MUSICA,
