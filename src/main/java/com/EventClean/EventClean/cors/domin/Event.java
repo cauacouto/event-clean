@@ -1,19 +1,24 @@
 package com.EventClean.EventClean.cors.domin;
 
-import com.EventClean.EventClean.cors.Emuns.tipoEvento;
+import com.EventClean.EventClean.cors.Enums.tipoEvento;
 
 import java.time.LocalDateTime;
 
-public class Event {
+public record Event(   Long id,
+                        String name,
+                        String description,
+                        LocalDateTime dateInitial,
+                        LocalDateTime dateEnd,
+                        String identifier,
+                       String localEvent,
+                        String organizer,
+                        tipoEvento Etipo){}
 
-    private Long id;
-    private String name;
-    private String description;
-    private LocalDateTime dateInitial;
-    private  LocalDateTime dateEnd;
-    private String identifier;
-    private String location;
-    private String organizer;
-    private tipoEvento tipo;
 
-}
+
+
+
+
+
+
+
